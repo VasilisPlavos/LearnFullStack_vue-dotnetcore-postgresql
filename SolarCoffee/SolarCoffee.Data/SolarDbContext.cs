@@ -7,7 +7,7 @@ using SolarCoffee.Data.Models;
 
 namespace SolarCoffee.Data
 {
-    class SolarDbContext : IdentityDbContext
+    public class SolarDbContext : IdentityDbContext
     {
         public SolarDbContext() { }
 
