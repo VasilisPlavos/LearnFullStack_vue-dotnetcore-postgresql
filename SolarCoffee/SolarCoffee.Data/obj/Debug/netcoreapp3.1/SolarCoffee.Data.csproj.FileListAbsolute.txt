@@ -1,0 +1,5 @@
+C:\Users\vplav\Downloads\Gits\LearnFullStack_vue-dotnetcore-postgresql\SolarCoffee\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.deps.json
+C:\Users\vplav\Downloads\Gits\LearnFullStack_vue-dotnetcore-postgresql\SolarCoffee\SolarCoffee.Data\bin\Debug\netcoreapp3.1\SolarCoffee.Data.dll
+C:\Users\vplav\Downloads\Gits\LearnFullStack_vue-dotnetcore-postgresql\SolarCoffee\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.csprojAssemblyReference.cache
+C:\Users\vplav\Downloads\Gits\LearnFullStack_vue-dotnetcore-postgresql\SolarCoffee\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.AssemblyInfoInputs.cache
+C:\Users\vplav\Downloads\Gits\LearnFullStack_vue-dotnetcore-postgresql\SolarCoffee\SolarCoffee.Data\obj\Debug\netcoreapp3.1\SolarCoffee.Data.AssemblyInfo.cs
