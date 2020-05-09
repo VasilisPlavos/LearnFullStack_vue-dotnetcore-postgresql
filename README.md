@@ -14,3 +14,5 @@ Udemy course: Learn Full-Stack Vue, .NET Core, PostgreSQL Web Development ([sour
 
 ## Other class libraries
 * dotnet new classlib -f netcoreapp3.1 -o SolarCoffee.Data *(netcoreapp3.1 because i am in version 3.1)*
+* dotnet new classlib -f netcoreapp3.1 -o SolarCoffee.Services
+* dotnet new xunit -f netcoreapp3.1 -o SolarCoffee.Test
