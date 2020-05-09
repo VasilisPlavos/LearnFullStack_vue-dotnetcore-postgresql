@@ -16,3 +16,19 @@ Udemy course: Learn Full-Stack Vue, .NET Core, PostgreSQL Web Development ([sour
 * dotnet new classlib -f netcoreapp3.1 -o SolarCoffee.Data *(netcoreapp3.1 because i am in version 3.1)*
 * dotnet new classlib -f netcoreapp3.1 -o SolarCoffee.Services
 * dotnet new xunit -f netcoreapp3.1 -o SolarCoffee.Test
+
+## Postgresql
+Server [localhost]
+Database [postgres]
+Port [5432]
+Username [postgres]
+Password for user postgres: ****
+```
+postgres=# CREATE USER solardev WITH PASSWORD 'solar123';
+CREATE ROLE
+postgres=# CREATE DATABASE solardev;
+CREATE DATABASE
+postgres=# GRANT ALL PRIVILEGES ON DATABASE solardev TO solardev;
+GRANT
+postgres=# \c solardev solardev (connecting to solardev database as solardev username)
+```
