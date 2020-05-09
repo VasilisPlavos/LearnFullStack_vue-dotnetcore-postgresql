@@ -32,3 +32,8 @@ postgres=# GRANT ALL PRIVILEGES ON DATABASE solardev TO solardev;
 GRANT
 postgres=# \c solardev solardev (connecting to solardev database as solardev username)
 ```
+
+## Other Postgre commands
+` \c [database] [user] `: connects to the [database] as [user]
+` \dt `: show all datatables of a database
+` SELECT * FROM "CustomerAddresses"; ` Query sample
