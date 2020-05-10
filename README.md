@@ -37,3 +37,7 @@ postgres=# \c solardev solardev (connecting to solardev database as solardev use
 ` \c [database] [user] `: connects to the [database] as [user]
 ` \dt `: show all datatables of a database
 ` SELECT * FROM "CustomerAddresses"; ` Query sample
+
+### Migrations cheatsheet
+` dotnet ef --startup-project ../SolarCoffee.Web migrations add InitialMigration ` in SolarCoffee\SolarCoffee.Data dir
+` dotnet ef --startup-project ../SolarCoffee.Web database update ` in SolarCoffee\SolarCoffee.Data dir
