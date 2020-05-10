@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using SolarCoffee.Data;
+using SolarCoffee.Services.Product;
 
 namespace SolarCoffee.Web
 {
@@ -32,7 +33,9 @@ namespace SolarCoffee.Web
             services.AddDbContext<SolarDbContext>(opts => {
                 opts.EnableDetailedErrors();
                 opts.UseNpgsql(Configuration.GetConnectionString("solar.dev"));
-            }  );
+            });
+
+            services.AddTransient<IProductService, ProductService>();
 
             
         }
