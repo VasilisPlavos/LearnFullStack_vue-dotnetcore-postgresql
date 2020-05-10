@@ -33,10 +33,11 @@ GRANT
 postgres=# \c solardev solardev (connecting to solardev database as solardev username)
 ```
 
-## Other Postgre commands
+## Other Postgresql commands
 ` \c [database] [user] `: connects to the [database] as [user]
 ` \dt `: show all datatables of a database
 ` SELECT * FROM "CustomerAddresses"; ` Query sample
+` psql -h localhost -p 5432 -d solardev -U solardev ` quick connect
 
 ### Migrations cheatsheet
 ` dotnet ef --startup-project ../SolarCoffee.Web migrations add InitialMigration ` in SolarCoffee\SolarCoffee.Data dir
