@@ -41,3 +41,6 @@ postgres=# \c solardev solardev (connecting to solardev database as solardev use
 ### Migrations cheatsheet
 ` dotnet ef --startup-project ../SolarCoffee.Web migrations add InitialMigration ` in SolarCoffee\SolarCoffee.Data dir
 ` dotnet ef --startup-project ../SolarCoffee.Web database update ` in SolarCoffee\SolarCoffee.Data dir
+
+### Makefile cheatsheet
+` make migrations mname=ProductInventorySales ` ***Tip:** How to run make on Windows ([source](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows))*
