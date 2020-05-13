@@ -17,7 +17,7 @@ namespace SolarCoffee.Data.Models
         [MaxLength(128)]
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public bool isTaxable { get; set; }
-        public bool isArchived { get; set; }
+        public bool IsTaxable { get; set; }
+        public bool IsArchived { get; set; }
     }
 }
