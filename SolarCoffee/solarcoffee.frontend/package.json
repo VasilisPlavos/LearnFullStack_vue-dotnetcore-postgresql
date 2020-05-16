@@ -38,7 +38,8 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "typescript": "~3.8.3",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
