@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <h1>d</h1>
     <div class="app-menu">
       <side-menu />
     </div>
