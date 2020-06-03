@@ -17,12 +17,16 @@ Udemy course: Learn Full-Stack Vue, .NET Core, PostgreSQL Web Development ([sour
 * dotnet new classlib -f netcoreapp3.1 -o SolarCoffee.Services
 * dotnet new xunit -f netcoreapp3.1 -o SolarCoffee.Test
 
+## How to run
+1. Create user, pass, database based on SolarCoffee.Web > appsettings.json > appsettings.Development.json
+
 ## Postgresql
 Server [localhost]
 Database [postgres]
 Port [5432]
 Username [postgres]
 Password for user postgres: ****
+
 ```
 postgres=# CREATE USER solardev WITH PASSWORD 'solar123';
 CREATE ROLE
