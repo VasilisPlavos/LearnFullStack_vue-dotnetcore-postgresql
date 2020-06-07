@@ -23,7 +23,7 @@ export default class SolarButton extends Vue {
 
 
     visitRoute() {
-        this.$router.push(this.link);
+        alert('visitRoute');
     }
 }
 
