@@ -23,7 +23,6 @@ import SolarButton from '@/components/SolarButton.vue'
 export default class SideMenu extends Vue {
     goToRoute(route: string){
         this.$router.push(route);
-
     }
  }
 </script>
