@@ -49,3 +49,9 @@ postgres=# \c solardev solardev (connecting to solardev database as solardev use
 
 ### Makefile cheatsheet
 ` make migrations mname=ProductInventorySales ` ***Tip:** How to run make on Windows ([source](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows))*
+
+# Vuejs
+## Methods to remember
+1. mounted(){}
+2. created(){}
+3. destroy(){} => when component destroyed (ex. change from home to about)
